@@ -127,4 +127,100 @@ footer, footer a {
     background-color: #FDEEDC;
 }
 
+@media screen and (max-width: 1280px) {
+    .profile {
+        width: 400px;
+        float: right;
+        margin-left: 700px;
+        border-radius: 50%;
+        background-color: orange;
+    }
+    
+    .testing {
+        width: 500px;
+        margin-top: 300px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .grey {
+        width: 300px;
+        position: absolute;
+        margin-left: 400px;
+        transform: rotate(50deg);
+        z-index: -1;
+    }
+    .introt {
+        margin: 130px 350px;
+        position: absolute;
+        font-size: 40px;
+    
+    }
 
+}
+
+@media screen and (max-width: 765px) {
+    .profile {
+        width: 300px;
+        float: right;
+        margin-left: 415px;
+        border-radius: 50%;
+        background-color: orange;
+    }
+    
+    .testing {
+        width: 300px;
+        margin-top: 300px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .grey {
+        width: 200px;
+        position: absolute;
+        margin-left: 200px;
+        transform: rotate(50deg);
+        z-index: -1;
+    }
+    .introt {
+        margin: 130px 20px 0px 15px;
+        position: absolute;
+        font-size: 27px;
+        
+    
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .profile {
+        width: 200px;
+        float: right;
+        margin-left: 200px;
+        border-radius: 50%;
+        background-color: orange;
+    }
+    
+    .testing {
+        width: 200px;
+        margin-top: 300px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .grey {
+        width: 200px;
+        position: absolute;
+        margin-left: 100px;
+        transform: rotate(50deg);
+        z-index: -1;
+    }
+    .introt {
+        margin: 130px 200px 0px 15px;
+        position: absolute;
+        font-size: 20px;
+        
+    
+    }
+
+}
