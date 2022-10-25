@@ -15,6 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+
 }
 
 ul {
@@ -42,7 +43,7 @@ li, .navlink a {
 .profile {
     width: 400px;
     float: right;
-    margin-left: 1120px;
+    margin-left: 75rem;
     border-radius: 50%;
     background-color: orange;
 }
@@ -56,24 +57,22 @@ li, .navlink a {
 .grey {
     width: 300px;
     position: absolute;
-    margin-left: 1500px;
+    margin-left: 80%;
     transform: rotate(50deg);
     z-index: -1;
 }
 
-hr {
-    border-color: none;
-    border-style: dotted;
-}
+
 .intro {
     padding-top: 100px;
     display: inline-block;
+    padding-bottom: 200px;
 }
 
 .introt {
-    margin: 130px 800px;
+    margin: 12% 39%;
     position: absolute;
-    font-size: 50px;
+    font-size: 300%;
 
 }
 .logo {
@@ -107,7 +106,7 @@ hr {
 
 footer, footer a {
     background-color:orange;
-    padding: 70px 30px;
+    padding: 5% 3%;
     text-decoration: none;
     text-align: center;
 }
@@ -116,20 +115,10 @@ footer, footer a {
     line-height: 3rem;
 }
 
-.projects {
-    padding: 0px 30px 300px;
-}
 
-.contact-me {
-    text-align: center;
-    padding: 100px 30px 100px;
-    border-radius: 4px;
-    background-color: #FDEEDC;
-}
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1137px) {
     .profile {
-        width: 400px;
+        width: 30%;
         float: right;
         margin-left: 700px;
         border-radius: 50%;
@@ -137,8 +126,8 @@ footer, footer a {
     }
     
     .testing {
-        width: 500px;
-        margin-top: 300px;
+        width: 40%;
+        margin-top: 15%;
         position: absolute;
         z-index: -1;
     }
@@ -151,7 +140,7 @@ footer, footer a {
         z-index: -1;
     }
     .introt {
-        margin: 130px 350px;
+        margin: 130px 500px;
         position: absolute;
         font-size: 40px;
     
@@ -227,6 +216,7 @@ footer, footer a {
 
 
 @media screen and (max-width: 400px) {
+    
     .profile {
         width: 50%;
         float: right;
