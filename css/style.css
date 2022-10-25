@@ -194,7 +194,7 @@ footer, footer a {
 
 @media screen and (max-width: 480px) {
     .profile {
-        width: 200px;
+        width: 50%;
         float: right;
         margin-left: 200px;
         border-radius: 50%;
@@ -224,3 +224,4 @@ footer, footer a {
     }
 
 }
+
