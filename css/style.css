@@ -161,7 +161,7 @@ footer, footer a {
 
 @media screen and (max-width: 765px) {
     .profile {
-        width: 300px;
+        width: 40%;
         float: right;
         margin-left: 415px;
         border-radius: 50%;
@@ -193,6 +193,40 @@ footer, footer a {
 }
 
 @media screen and (max-width: 480px) {
+    .profile {
+        width: 50%;
+        float: right;
+        margin-left: 200px;
+        border-radius: 50%;
+        background-color: orange;
+    }
+    
+    .testing {
+        width: 200px;
+        margin-top: 300px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .grey {
+        width: 200px;
+        position: absolute;
+        margin-left: 100px;
+        transform: rotate(50deg);
+        z-index: -1;
+    }
+    .introt {
+        margin: 130px 200px 0px 15px;
+        position: absolute;
+        font-size: 20px;
+        
+    
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
     .profile {
         width: 50%;
         float: right;
