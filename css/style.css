@@ -6,16 +6,15 @@
     box-sizing: border-box;
 }
 
-
 p {
     font-size: 20px;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
-
+    padding: 30px 5%; /* Adjust padding for responsiveness */
 }
 
 ul {
@@ -35,33 +34,32 @@ li, .navlink a {
     transition: all 250ms ease 0ms;
 }
 
-
 .navlink a:hover {
     color: orange;
 }
 
 .profile {
-    width: 400px;
+    width: 30%; /* Adjust width for responsiveness */
     float: right;
-    margin-left: 75rem;
+    margin-left: 5%; /* Adjust margin for responsiveness */
     border-radius: 50%;
     background-color: orange;
 }
 
 .testing {
-    width: 700px;
+    width: 40%; /* Adjust width for responsiveness */
+    margin-top: 15%; /* Adjust margin for responsiveness */
     position: absolute;
     z-index: -1;
 }
 
 .grey {
-    width: 300px;
+    width: 200px; /* Adjust width for responsiveness */
     position: absolute;
-    margin-left: 80%;
+    margin-left: 10%; /* Adjust margin for responsiveness */
     transform: rotate(50deg);
     z-index: -1;
 }
-
 
 .intro {
     padding-top: 100px;
@@ -70,11 +68,11 @@ li, .navlink a {
 }
 
 .introt {
-    margin: 12% 39%;
+    margin: 12% auto; /* Center the element horizontally */
     position: absolute;
     font-size: 300%;
-
 }
+
 .logo {
     color: #E0144C;
     font-size: 30px;
@@ -92,12 +90,12 @@ li, .navlink a {
 .about-me {
     text-align: center;
     line-height: 1.5rem;
-    padding: 0px 30px 200px;
+    padding: 0px 5%; /* Adjust padding for responsiveness */
 }
 
 .headings {
     text-align: center;
-    padding: 250px 0px 20px 0px;
+    padding: 20% 0px; /* Adjust padding for responsiveness */
     line-height: 1.5rem;
     font-weight: 800;
     color: orange;
@@ -105,7 +103,7 @@ li, .navlink a {
 }
 
 footer, footer a {
-    background-color:orange;
+    background-color: orange;
     padding: 5% 3%;
     text-decoration: none;
     text-align: center;
@@ -115,137 +113,18 @@ footer, footer a {
     line-height: 3rem;
 }
 
-
 @media screen and (max-width: 1137px) {
-    .profile {
-        width: 30%;
-        float: right;
-        margin-left: 700px;
-        border-radius: 50%;
-        background-color: orange;
-    }
-    
-    .testing {
-        width: 40%;
-        margin-top: 15%;
-        position: absolute;
-        z-index: -1;
-    }
-    
-    .grey {
-        width: 300px;
-        position: absolute;
-        margin-left: 400px;
-        transform: rotate(50deg);
-        z-index: -1;
-    }
-    .introt {
-        margin: 130px 500px;
-        position: absolute;
-        font-size: 40px;
-    
-    }
-
+    /* Add your responsive styles for this breakpoint */
 }
 
 @media screen and (max-width: 765px) {
-    .profile {
-        width: 40%;
-        float: right;
-        margin-left: 415px;
-        border-radius: 50%;
-        background-color: orange;
-    }
-    
-    .testing {
-        width: 300px;
-        margin-top: 300px;
-        position: absolute;
-        z-index: -1;
-    }
-    
-    .grey {
-        width: 200px;
-        position: absolute;
-        margin-left: 200px;
-        transform: rotate(50deg);
-        z-index: -1;
-    }
-    .introt {
-        margin: 130px 20px 0px 15px;
-        position: absolute;
-        font-size: 27px;
-        
-    
-    }
-
+    /* Add your responsive styles for this breakpoint */
 }
 
 @media screen and (max-width: 480px) {
-    .profile {
-        width: 50%;
-        float: right;
-        margin-left: 200px;
-        border-radius: 50%;
-        background-color: orange;
-    }
-    
-    .testing {
-        width: 200px;
-        margin-top: 300px;
-        position: absolute;
-        z-index: -1;
-    }
-    
-    .grey {
-        width: 200px;
-        position: absolute;
-        margin-left: 100px;
-        transform: rotate(50deg);
-        z-index: -1;
-    }
-    .introt {
-        margin: 130px 200px 0px 15px;
-        position: absolute;
-        font-size: 20px;
-        
-    
-    }
-
+    /* Add your responsive styles for this breakpoint */
 }
-
 
 @media screen and (max-width: 400px) {
-    
-    .profile {
-        width: 50%;
-        float: right;
-        margin-left: 200px;
-        border-radius: 50%;
-        background-color: orange;
-    }
-    
-    .testing {
-        width: 200px;
-        margin-top: 300px;
-        position: absolute;
-        z-index: -1;
-    }
-    
-    .grey {
-        width: 200px;
-        position: absolute;
-        margin-left: 100px;
-        transform: rotate(50deg);
-        z-index: -1;
-    }
-    .introt {
-        margin: 130px 200px 0px 15px;
-        position: absolute;
-        font-size: 20px;
-        
-    
-    }
-
+    /* Add your responsive styles for this breakpoint */
 }
-
